@@ -1,0 +1,82 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Montserrat', system-ui, -apple-system, sans-serif;
+  --font-display: 'Bodoni Moda', 'Didot', Georgia, serif;
+
+  --color-pista-50: #f4f7f2;
+  --color-pista-100: #e5ede2;
+  --color-pista-200: #cddec6;
+  --color-pista-300: #b2cda7;
+  --color-pista-400: #9db08e;
+  --color-pista-500: #809770;
+  --color-pista-600: #657956;
+  --color-pista-700: #4e5f42;
+
+  --color-choc-50: #faf6f3;
+  --color-choc-100: #f3ece6;
+  --color-choc-200: #e4d5ca;
+  --color-choc-300: #cbb4a3;
+  --color-choc-400: #9c7a65;
+  --color-choc-500: #745442;
+  --color-choc-600: #553c2f;
+  --color-choc-700: #422e23;
+  --color-choc-800: #322119;
+  --color-choc-900: #231610;
+  --color-choc-950: #170d09;
+
+  --color-peach-50: #fff8f5;
+  --color-peach-100: #fdeee7;
+  --color-peach-200: #fbdccc;
+  --color-peach-300: #f7c5ab;
+  --color-peach-400: #f2a782;
+  --color-peach-500: #e8895c;
+  --color-peach-600: #d26736;
+}
+
+/* Custom scrollbars and transitions */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(157, 176, 142, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(157, 176, 142, 0.7);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Background atmosphere classes matching user's requested palette in website backgrounds */
+.bg-pista-wash {
+  background-color: #ebf3e8;
+}
+
+.bg-peach-wash {
+  background-color: #fdf2ea;
+}
+
+.bg-choc-dark {
+  background-color: #231610;
+}
+
+.bg-pista-peach-mesh {
+  background: radial-gradient(circle at 10% 20%, #ebf3e8 0%, #fdf2ea 60%, #faf6f0 100%);
+}
+
+.bg-hero-palette {
+  background: linear-gradient(135deg, #e7f0e3 0%, #fef5ef 55%, #f7dfd1 100%);
+}
+
+.bg-outfit-palette {
+  background: linear-gradient(180deg, #fef6f0 0%, #edf4ea 100%);
+}
+

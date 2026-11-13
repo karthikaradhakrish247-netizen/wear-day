@@ -1,0 +1,6 @@
+{
+  "name": "WearDay - Curated Affiliate Fashion & Lifestyle Store",
+  "description": "Premium e-commerce affiliate storefront and administrative dashboard featuring pistachio, chocolate, and peach minimalist aesthetics, outfit builder, and click analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
